@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/* Hero Section - High Ticket Compact Layout Conversion Focus */
+.hero-vap {
+  background: #050505;
+  color: #f5f5f5;
+  padding: 20px 0 28px;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+.hero-container {
+  width: min(1100px, 94%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-copy {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-eyebrow {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 4px 10px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 999px;
+  background: rgba(255,255,255,.03);
+  color: rgba(255,255,255,.75);
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: .02em;
+  width: fit-content;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: clamp(26px, 2.8vw, 34px);
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  max-width: 32ch;
+}
+
+.hero-impact {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #ff4d43;
+}
+
+.hero-text {
+  margin: 0 0 4px;
+  max-width: 52ch;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: rgba(255,255,255,.75);
+}
+
+.hero-text:last-of-type {
+  margin-bottom: 8px;
+}
+
+.hero-box {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(255,255,255,.06) 0%, rgba(255,255,255,.02) 100%);
+  box-shadow: 0 4px 16px rgba(0,0,0,.3);
+  position: relative;
+}
+
+.hero-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,77,67,.4) 50%, transparent 100%);
+  border-radius: 10px 10px 0 0;
+}
+
+.hero-box-label {
+  margin-bottom: 2px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #ff5a4f;
+}
+
+.hero-box p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: rgba(255,255,255,.85);
+}
+
+.hero-cta-wrap {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 58px;
+  padding: 18px 36px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6257 0%, #ff4d43 100%);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(255, 77, 67, .25);
+  transition: transform .15s ease, box-shadow .15s ease;
+  width: 100%;
+  max-width: 340px;
+  margin-top: 0;
+  gap: 12px;
+}
+
+.hero-button i.fa-whatsapp {
+  margin-left: 2px;
+  flex-shrink: 0;
+}
+
+.hero-button:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 10px 28px rgba(255, 77, 67, .35);
+  filter: brightness(0.95);
+}
+
+@media (max-width: 768px) {
+  .hero-button {
+    white-space: normal;
+    font-size: 16px;
+    padding: 16px 28px;
+    min-height: 56px;
+    gap: 10px;
+  }
+}
+
+.hero-microcopy {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(255,255,255,.7);
+  opacity: 0.75;
+}
+
+.hero-media {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.hero-media img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  max-height: 450px;
+  height: 450px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0,0,0,.45);
+}
+
+/* Tablet */
+@media (max-width: 980px) {
+  .hero-vap {
+    padding: 24px 0 32px;
+  }
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-copy {
+    max-width: 100%;
+    order: 1;
+  }
+  .hero-cta-wrap {
+    order: 2;
+    width: 100%;
+    align-items: center;
+  }
+  .hero-button {
+    width: 100%;
+    max-width: 100%;
+    min-height: 58px;
+  }
+  .hero-media {
+    order: 3;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+  .hero-media img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 480px;
+    height: 480px;
+    border-radius: 16px;
+  }
+  .hero-title {
+    max-width: 100%;
+    font-size: clamp(26px, 5vw, 38px);
+    line-height: 1.15;
+  }
+  .hero-box {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+/* Hero media adjustments - Desktop only */
+@media (min-width: 981px) {
+  .hero-media img {
+    transform: scale(1.05);
+    margin-top: -16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .hero-vap {
+    padding: 20px 0 28px;
+  }
+  .hero-container {
+    gap: 20px;
+    width: min(1100px, 92%);
+  }
+  .hero-eyebrow {
+    font-size: 10px;
+    padding: 4px 8px;
+    margin-bottom: 6px;
+  }
+  .hero-title {
+    font-size: clamp(22px, 6.5vw, 28px);
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+  }
+  .hero-impact {
+    font-size: clamp(17px, 5vw, 20px);
+    margin-top: 6px;
+    margin-bottom: 10px;
+  }
+  .hero-text {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+  }
+  .hero-box {
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+  }
+  .hero-box p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .hero-button {
+    min-height: 56px;
+    font-size: 16px;
+    padding: 16px 24px;
+    border-radius: 12px;
+  }
+  .hero-microcopy {
+    font-size: 11px;
+    margin-top: 6px;
+  }
+  .hero-media img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 420px;
+    height: 420px;
+    border-radius: 16px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 380px) {
+  .hero-media img {
+    max-height: 380px;
+    height: 380px;
+  }
+  .hero-title {
+    font-size: 22px;
+  }
+}
