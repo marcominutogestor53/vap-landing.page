@@ -371,21 +371,87 @@ a[href="#cta"] svg,
   margin-right: 8px !important;
   margin-left: 0 !important;
 }
-}
-
-/* botão maior no desktop */
+/* AJUSTE GLOBAL DOS BOTÕES CTA */
 a[href*="wa.me"],
 a[href*="whatsapp"],
 a[href="#cta"],
-.hero a,
 .cta-button,
-.btn-cta {
-  min-width: 420px !important;
-  font-size: 22px !important;
-  padding: 22px 40px !important;
+.btn-cta,
+.hero a[href*="wa.me"],
+.hero a[href*="whatsapp"] {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+
+  width: auto !important;
+  min-width: 360px !important;
+  max-width: 100% !important;
+
+  padding: 20px 32px !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+
+  border-radius: 14px !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
 }
 
+a[href*="wa.me"] i,
+a[href*="wa.me"] svg,
+a[href*="whatsapp"] i,
+a[href*="whatsapp"] svg,
+a[href="#cta"] i,
+a[href="#cta"] svg,
+.cta-button i,
+.cta-button svg,
+.btn-cta i,
+.btn-cta svg,
+.hero a[href*="wa.me"] i,
+.hero a[href*="wa.me"] svg,
+.hero a[href*="whatsapp"] i,
+.hero a[href*="whatsapp"] svg {
+  flex-shrink: 0 !important;
+  margin-right: 8px !important;
+  margin-left: 0 !important;
+}
+
+/* HERO: botão principal um pouco maior */
+.hero a[href*="wa.me"],
+.hero a[href*="whatsapp"] {
+  min-width: 420px !important;
+  padding: 22px 36px !important;
+  font-size: 19px !important;
+}
+
+/* MOBILE */
 @media (max-width: 768px) {
+  a[href*="wa.me"],
+  a[href*="whatsapp"],
+  a[href="#cta"],
+  .cta-button,
+  .btn-cta,
+  .hero a[href*="wa.me"],
+  .hero a[href*="whatsapp"] {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+
+    padding: 18px 20px !important;
+    font-size: 16px !important;
+    line-height: 1.25 !important;
+    white-space: normal !important;
+  }
+
+  .hero a[href*="wa.me"],
+  .hero a[href*="whatsapp"] {
+    font-size: 17px !important;
+    padding: 18px 22px !important;
+  }
+}8px) {
   
   a[href*="wa.me"],
   a[href*="whatsapp"],
@@ -397,5 +463,30 @@ a[href="#cta"],
     width: 100% !important;
     font-size: 18px !important;
     padding: 18px 24px !important;
+  }
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  a[href*="wa.me"],
+  a[href*="whatsapp"],
+  a[href="#cta"],
+  .cta-button,
+  .btn-cta,
+  .hero a[href*="wa.me"],
+  .hero a[href*="whatsapp"] {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+
+    padding: 18px 20px !important;
+    font-size: 16px !important;
+    line-height: 1.25 !important;
+    white-space: normal !important;
+  }
+
+  .hero a[href*="wa.me"],
+  .hero a[href*="whatsapp"] {
+    font-size: 17px !important;
+    padding: 18px 22px !important;
   }
 }
