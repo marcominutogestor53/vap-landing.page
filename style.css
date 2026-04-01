@@ -316,3 +316,22 @@
     font-size: 22px;
   }
 }
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px 36px;
+  font-size: 20px;
+  font-weight: 600;
+  background: #ff4d4d;
+  color: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background: #e63b3b;
+  transform: scale(1.05);
+}
