@@ -335,3 +335,53 @@
   background: #e63b3b;
   transform: scale(1.05);
 }
+/* botão hero - ajuste seguro sem mexer no HTML */
+a[href*="wa.me"],
+a[href*="whatsapp"],
+a[href="#cta"],
+.hero a,
+.cta-button,
+.btn-cta {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  padding: 20px 36px !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+  min-width: 420px !important;
+  border-radius: 12px !important;
+  text-decoration: none !important;
+}
+
+a[href*="wa.me"] i,
+a[href*="wa.me"] svg,
+a[href*="whatsapp"] i,
+a[href*="whatsapp"] svg,
+a[href="#cta"] i,
+a[href="#cta"] svg,
+.hero a i,
+.hero a svg,
+.cta-button i,
+.cta-button svg,
+.btn-cta i,
+.btn-cta svg {
+  margin-right: 8px !important;
+  margin-left: 0 !important;
+}
+
+@media (max-width: 768px) {
+  a[href*="wa.me"],
+  a[href*="whatsapp"],
+  a[href="#cta"],
+  .hero a,
+  .cta-button,
+  .btn-cta {
+    min-width: auto !important;
+    width: 100% !important;
+    font-size: 18px !important;
+    padding: 18px 24px !important;
+  }
+}
