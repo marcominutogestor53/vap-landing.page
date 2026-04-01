@@ -515,3 +515,51 @@ a[href="#cta"] svg,
     padding: 18px 22px !important;
   }
 }
+@media (max-width: 768px) {
+  a[href*="wa.me"],
+  a[href*="whatsapp"],
+  a[href="#cta"],
+  .cta-button,
+  .btn-cta,
+  .hero a[href*="wa.me"],
+  .hero a[href*="whatsapp"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+
+    padding: 16px 18px !important;
+    font-size: 15px !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+  }
+
+  .hero a[href*="wa.me"],
+  .hero a[href*="whatsapp"] {
+    font-size: 15px !important;
+    padding: 16px 18px !important;
+  }
+
+  a[href*="wa.me"] i,
+  a[href*="wa.me"] svg,
+  a[href*="whatsapp"] i,
+  a[href*="whatsapp"] svg,
+  a[href="#cta"] i,
+  a[href="#cta"] svg,
+  .cta-button i,
+  .cta-button svg,
+  .btn-cta i,
+  .btn-cta svg,
+  .hero a[href*="wa.me"] i,
+  .hero a[href*="wa.me"] svg,
+  .hero a[href*="whatsapp"] i,
+  .hero a[href*="whatsapp"] svg {
+    margin: 0 !important;
+    flex-shrink: 0 !important;
+  }
+}
