@@ -371,8 +371,22 @@ a[href="#cta"] svg,
   margin-right: 8px !important;
   margin-left: 0 !important;
 }
+}
+
+/* botão maior no desktop */
+a[href*="wa.me"],
+a[href*="whatsapp"],
+a[href="#cta"],
+.hero a,
+.cta-button,
+.btn-cta {
+  min-width: 420px !important;
+  font-size: 22px !important;
+  padding: 22px 40px !important;
+}
 
 @media (max-width: 768px) {
+  
   a[href*="wa.me"],
   a[href*="whatsapp"],
   a[href="#cta"],
