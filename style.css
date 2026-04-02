@@ -563,3 +563,53 @@ a[href="#cta"] svg,
     flex-shrink: 0 !important;
   }
 }
+/* ===== AJUSTE CLEAN HERO ===== */
+
+.hero-vap {
+  padding: 80px 28px;
+}
+
+.hero-container {
+  gap: 60px;
+}
+
+.hero-vap h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-vap p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cfcfcf;
+  margin-bottom: 24px;
+  max-width: 520px;
+}
+
+.hero-vap .box {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+
+.hero-vap .btn {
+  padding: 16px 28px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-vap .btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.hero-vap img {
+  max-width: 420px;
+  border-radius: 20px;
+  opacity: 0.95;
+}
