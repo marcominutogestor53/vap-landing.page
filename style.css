@@ -747,3 +747,20 @@ a[href="#cta"] svg,
 .hero-vap img {
   max-width: 500px !important;
 }
+/* ===== AJUSTE FINO FINAL DO BOX HERO ===== */
+
+.hero-vap .box {
+  padding: 10px 14px !important;
+  margin-bottom: 10px !important;
+  border-radius: 10px !important;
+}
+
+.hero-vap .box p {
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0 !important;
+}
+
+.hero-vap .btn {
+  margin-top: 4px !important;
+}
