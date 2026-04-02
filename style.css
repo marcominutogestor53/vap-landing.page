@@ -712,3 +712,38 @@ a[href="#cta"] svg,
   border-radius: 20px;
   opacity: 0.95;
 }
+/* ===== AJUSTE FINO HERO - SUBIR COPY E REDUZIR MASSA ===== */
+
+.hero-vap {
+  padding: 52px 28px 36px !important;
+}
+
+.hero-container {
+  align-items: start !important;
+  gap: 44px !important;
+}
+
+.hero-vap h1 {
+  font-size: 34px !important;
+  line-height: 1.14 !important;
+  letter-spacing: -0.8px !important;
+  margin-bottom: 14px !important;
+  max-width: 680px !important;
+}
+
+.hero-vap p {
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  margin-bottom: 16px !important;
+  max-width: 590px !important;
+}
+
+.hero-vap .box {
+  padding: 14px 18px !important;
+  margin-bottom: 16px !important;
+  max-width: 760px !important;
+}
+
+.hero-vap img {
+  max-width: 500px !important;
+}
