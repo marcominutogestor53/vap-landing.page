@@ -69,7 +69,7 @@ section {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
-  align-items: start;
+  align-items: center;
   gap: 48px;
 }
 
@@ -95,8 +95,11 @@ section {
 }
 
 .hero-title {
+  margin: 0 0 16px;
   font-size: clamp(32px, 3.2vw, 44px);
   line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   max-width: 20ch;
 }
 
@@ -111,7 +114,7 @@ section {
 
 .hero-text {
   margin: 0 0 22px;
-  max-width: 31ch;
+  max-width: 45ch;
   font-size: 18px;
   line-height: 1.58;
   color: rgba(255,255,255,.84);
@@ -197,9 +200,8 @@ section {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
-  padding-top: 12px;
 }
 
 .hero-media img {
@@ -225,7 +227,6 @@ section {
   );
   pointer-events: none;
 }
-
 /* =========================
    DOBRA 2 - VAP 360
    ========================= */
