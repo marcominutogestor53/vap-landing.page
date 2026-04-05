@@ -98,14 +98,12 @@ section {
 
 .hero-title {
   margin: 0 0 18px;
-  max-width: 13ch;
-  font-size: clamp(40px, 4.4vw, 72px);
-  line-height: 0.98;
+  max-width: 18ch; /* antes 13ch → muito estreito */
+  font-size: clamp(36px, 3.2vw, 56px); /* antes até 72px */
+  line-height: 1.06;
   font-weight: 800;
-  letter-spacing: -0.045em;
-  text-wrap: balance;
+  letter-spacing: -0.035em;
 }
-
 .hero-impact {
   margin: 0 0 20px;
   font-size: clamp(28px, 2.4vw, 36px);
@@ -118,9 +116,9 @@ section {
 
 .hero-text {
   margin: 0 0 24px;
-  max-width: 34ch;
-  font-size: clamp(18px, 1.35vw, 21px);
-  line-height: 1.48;
+  max-width: 44ch; /* antes 34ch → MUITO estreito */
+  font-size: clamp(17px, 1.2vw, 19px);
+  line-height: 1.55;
   color: rgba(255,255,255,.84);
 }
 
@@ -256,9 +254,9 @@ section {
     line-height: 1;
   }
 
-  .hero-impact {
-    font-size: clamp(24px, 2.8vw, 32px);
-  }
+.hero-impact {
+  font-size: clamp(24px, 2vw, 30px);
+}
 
   .hero-text {
     max-width: 36ch;
