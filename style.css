@@ -81,19 +81,8 @@ section {
 }
 
 .hero-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  width: fit-content;
-  max-width: 100%;
-  margin-bottom: 18px;
-  padding: 8px 14px;
-  border: 1px solid var(--line-2);
-  border-radius: 999px;
-  background: rgba(255,255,255,.03);
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.25;
-  font-weight: 600;
+  font-size: 12px; /* antes ~14px */
+  padding: 6px 12px;
 }
 
 .hero-title {
