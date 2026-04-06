@@ -942,7 +942,9 @@ section {
   display: flex;
   justify-content: center;
 }
- 
+ .vap-pilares {
+  padding: 100px 0;
+}
  
  
 
