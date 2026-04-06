@@ -86,14 +86,24 @@ section {
   width: fit-content;
   max-width: 100%;
   margin-bottom: 18px;
-  padding: 8px 14px;
+  padding: 6px 12px; /* Reduzido para dar respiro */
   border: 1px solid var(--line-2);
   border-radius: 999px;
   background: rgba(255,255,255,.03);
   color: var(--muted);
-  font-size: 14px;
+  font-size: 12px; /* Reduzido de 14px para 12px */
   line-height: 1.25;
   font-weight: 600;
+  letter-spacing: 0.05em; /* Leve espaçamento para elegância */
+}
+
+.hero-title {
+  margin: 0 0 18px;
+  max-width: 100%;
+  font-size: clamp(26px, 2.5vw, 42px); /* Reduzido de 56px para 42px para não espremer */
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
 }
 
 .hero-title {
