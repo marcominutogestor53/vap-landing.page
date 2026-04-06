@@ -146,11 +146,10 @@ section {
 
 .hero-box p {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px; /* Reduzido para ficar mais elegante e dar respiro */
   line-height: 1.55;
   color: rgba(255,255,255,.9);
 }
-
 .hero-cta-wrap {
   display: flex;
   flex-direction: column;
@@ -318,9 +317,8 @@ section {
   }
 
   .hero-box p {
-    font-size: 15px;
+    font-size: 13px; /* Reduzido de 15px para 13px no mobile */
   }
-
   .hero-cta-wrap {
     align-items: stretch;
   }
