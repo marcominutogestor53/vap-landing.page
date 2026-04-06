@@ -1277,7 +1277,54 @@ section {
     font-size: 22px;
   }
 }
- 
+/* ================================
+   AJUSTES MOBILE - HERO SECTION
+   ================================ */
+
+@media (max-width: 768px) {
+
+  /* Espaçamento geral da hero */
+  .hero-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* Headline principal */
+  .hero-title {
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+
+  /* Texto abaixo da headline */
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 90%;
+  }
+
+  /* Box escuro */
+  .hero-box {
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  /* Botão CTA */
+  .hero-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px;
+    min-height: 56px;
+    border-radius: 12px;
+    margin-bottom: 20px; /* evita cortar no mobile */
+  }
+
+  /* Espaçamento entre elementos */
+  .hero-content > * + * {
+    margin-top: 16px;
+  }
+}
 
 
   
