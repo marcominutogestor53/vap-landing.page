@@ -11,75 +11,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VAP EMPRESA 360º - Transforme Seu Negócio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Sua empresa depende de você pra funcionar? O Protocolo VAP 90D™ instala gestão, processos e controle financeiro para transformar esforço em lucro previsível em até 90 dias. Diagnóstico estratégico gratuito mediante qualificação.">
+    <meta name="theme-color" content="#0d0d0d">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Sua empresa depende de você? Isso é um EMPREGO com CNPJ.">
+    <meta property="og:description" content="Protocolo VAP 90D™: gestão instalada na prática para lucro previsível em até 90 dias. Faça o diagnóstico estratégico.">
+    <meta property="og:image" content="https://vap-landing-page-blush.vercel.app/images/og-vap.jpg">
+    <meta property="og:url" content="https://vap-landing-page-blush.vercel.app/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d0d0d'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='24' text-anchor='middle' fill='%23D9B250'%3EVAP%3C/text%3E%3C/svg%3E">
+    <link rel="preload" as="image" href="images/marco.webp" fetchpriority="high">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        dark: '#0d0d0d',
-                        gold: '#D9B250',
-                        white: '#ffffff',
-                        gray: '#CFCFCF',
-                        accent: '#E53F3F'
-                    },
-                    fontFamily: {
-                        sans: ['Poppins', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        .gradient-text {
-            background: linear-gradient(90deg, #D9B250 0%, #E53F3F 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .check-item {
-            position: relative;
-            padding-left: 30px;
-        }
-        .check-item::before {
-            content: '\f00c';
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
-            position: absolute;
-            left: 0;
-            color: #D9B250;
-        }
-        .pulse {
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(229, 63, 63, 0.7);
-            }
-            70% {
-                transform: scale(1.02);
-                box-shadow: 0 0 0 10px rgba(229, 63, 63, 0);
-            }
-            100% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(229, 63, 63, 0);
-            }
-        }
-        .border-gold {
-            border-color: #D9B250;
-        }
-        .border-accent {
-            border-color: #E53F3F;
-        }
-        .bg-gold-gradient {
-            background: linear-gradient(135deg, #D9B250 0%, #b8963f 100%);
-        }
-    </style>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.css">
 </head>
 <body class="bg-dark text-white font-sans">
 <!-- Google Tag Manager (noscript) -->
@@ -121,9 +69,9 @@ e transforme esforço em lucro real no caixa.
           </div>
           <div class="hero-cta-wrap">
  <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-   onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
+   data-cta="topo"
    target="_blank"
-   class="hero-button">
+   class="hero-button cta-whatsapp">
   <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
 </a>
             <div class="hero-microcopy">
@@ -132,7 +80,7 @@ e transforme esforço em lucro real no caixa.
           </div>
         </div>
         <div class="hero-media">
-          <img src="https://i.postimg.cc/sg29C5jh/marco-png.png" alt="Especialista em gestão para varejo físico" />
+          <img src="images/marco.webp" width="800" height="800" fetchpriority="high" decoding="async" alt="Marco Antônio, especialista em gestão para varejo físico" />
         </div>
       </div>
     </section>
@@ -151,7 +99,7 @@ e transforme esforço em lucro real no caixa.
                     E por que você continua preso na operação
                 </p>
                 <p class="text-white font-bold text-lg mt-1">
-                    E isso trava sua empresa.
+                    E o que fazer primeiro pra sair dela.
                 </p>
             </div>
         </div>
@@ -162,8 +110,14 @@ e transforme esforço em lucro real no caixa.
     <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
             
+            <ul class="text-left max-w-xl mx-auto mb-8 space-y-3">
+                <li class="flex items-start bg-white/5 border border-white/10 p-4 rounded-lg"><i class="fas fa-times text-accent mt-1 mr-3"></i><span>Você fecha o mês sem saber quanto realmente lucrou</span></li>
+                <li class="flex items-start bg-white/5 border border-white/10 p-4 rounded-lg"><i class="fas fa-times text-accent mt-1 mr-3"></i><span>Se você tira uma semana de folga, a empresa para ou dá problema</span></li>
+                <li class="flex items-start bg-white/5 border border-white/10 p-4 rounded-lg"><i class="fas fa-times text-accent mt-1 mr-3"></i><span>A equipe só faz o certo quando você está olhando</span></li>
+                <li class="flex items-start bg-white/5 border border-white/10 p-4 rounded-lg"><i class="fas fa-times text-accent mt-1 mr-3"></i><span>O faturamento até cresce, mas o dinheiro no caixa não acompanha</span></li>
+            </ul>
             <p class="text-gray text-sm mb-4">
-Se você se identificou com isso, presta atenção:
+Se você marcou pelo menos um desses, presta atenção:
 </p>
             
             <div class="mb-8">
@@ -203,9 +157,9 @@ Se você se identificou com isso, presta atenção:
 
             <div class="flex justify-center">
   <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-     onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
+   data-cta="vap360"
      target="_blank"
-     class="hero-button">
+     class="hero-button cta-whatsapp">
     <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
   </a>
 </div>
@@ -304,9 +258,9 @@ Se você se identificou com isso, presta atenção:
                 </div>
 
                 <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-   onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
+   data-cta="metodo"
    target="_blank"
-   class="inline-block bg-accent hover:bg-red-700 hover:scale-[1.02] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300">
+   class="cta-whatsapp inline-block bg-accent hover:bg-red-700 hover:scale-[1.02] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300">
     <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
 </a>
             </div>
@@ -448,7 +402,7 @@ Se você se identificou com isso, presta atenção:
                 <div class="flex flex-col md:flex-row items-center gap-8">
                     <div class="md:w-1/3">
                         <div class="bg-gradient-to-br from-gold to-accent p-1 rounded-full">
-                            <img src="https://i.postimg.cc/zfZQzdV4/Quem-eu-sou.png" alt="Marco Antônio" class="rounded-full w-full aspect-square object-cover">
+                            <img src="images/quem-eu-sou.webp" width="800" height="800" loading="lazy" decoding="async" alt="Marco Antônio" class="rounded-full w-full aspect-square object-cover">
                         </div>
                     </div>
                     <div class="md:w-2/3 text-center md:text-left">
@@ -608,9 +562,9 @@ empresas que vendem, mas operam sem controle — e por isso nunca conseguem esca
                 <div class="text-center space-y-6">
                     <p class="text-white text-lg">Não é aula. Não é consultoria gratuita.<br>É uma análise estratégica para identificar o que impede sua empresa de funcionar com estrutura, controle e lucro.</p>
                     <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-   onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
+   data-cta="oferta"
    target="_blank"
-   class="inline-block bg-accent hover:bg-red-700 hover:scale-[1.02] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300">
+   class="cta-whatsapp inline-block bg-accent hover:bg-red-700 hover:scale-[1.02] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300">
     <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
 </a>
                 </div>
@@ -620,45 +574,83 @@ empresas que vendem, mas operam sem controle — e por isso nunca conseguem esca
 
     
 
+    <!-- DOBRA 12 — PERGUNTAS FREQUENTES -->
+    <section class="py-16 bg-dark/90">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gold text-center">Perguntas frequentes</h2>
+                <div class="space-y-3">
+                    <details class="faq bg-dark/80 border border-gold/30 rounded-xl p-5">
+                        <summary class="font-semibold cursor-pointer">Minha empresa é pequena. Isso serve pra mim?</summary>
+                        <p class="text-gray mt-3">Serve se ela já fatura e depende de você pra funcionar. O método é aplicado em negócios locais e organiza a estrutura no tamanho que a empresa tem hoje.</p>
+                    </details>
+                    <details class="faq bg-dark/80 border border-gold/30 rounded-xl p-5">
+                        <summary class="font-semibold cursor-pointer">Vou precisar parar a operação?</summary>
+                        <p class="text-gray mt-3">Não. A implementação acontece dentro da rotina da empresa, com execução assistida, sem parar as vendas.</p>
+                    </details>
+                    <details class="faq bg-dark/80 border border-gold/30 rounded-xl p-5">
+                        <summary class="font-semibold cursor-pointer">Quanto custa?</summary>
+                        <p class="text-gray mt-3">O diagnóstico é gratuito mediante qualificação. O investimento na implementação depende do momento e do tamanho da empresa, e é apresentado depois do diagnóstico.</p>
+                    </details>
+                    <details class="faq bg-dark/80 border border-gold/30 rounded-xl p-5">
+                        <summary class="font-semibold cursor-pointer">Como funciona o diagnóstico?</summary>
+                        <p class="text-gray mt-3">Você chama no WhatsApp, responde algumas perguntas rápidas sobre a empresa e agendamos uma sessão online de 45 a 60 minutos.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="py-8 border-t border-gold/20 bg-dark">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-4 md:mb-0">
-                    <p class="text-gray text-sm">© 2024 VAP EMPRESA 360º. Todos os direitos reservados.</p>
+                    <p class="text-gray text-sm">© 2026 VAP EMPRESA 360º. Todos os direitos reservados.</p>
                 </div>
                 <div class="flex space-x-4">
-                    <a href="#" class="text-gray hover:text-gold transition"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-gray hover:text-gold transition"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="text-gray hover:text-gold transition"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/5512988652198" target="_blank" rel="noopener" aria-label="WhatsApp" class="text-gray hover:text-gold transition"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- CTA fixo no celular -->
+    <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
+       data-cta="barra-fixa" target="_blank"
+       class="cta-whatsapp sticky-cta md:hidden fixed bottom-0 inset-x-0 z-50 flex items-center justify-center bg-accent text-white font-bold py-4 px-4 text-base">
+        <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
+    </a>
+
     <script>
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
+        // Origem do lead: ?origem=bio-ig ou utm_source; senão, detecta o navegador do Instagram
+        var params = new URLSearchParams(location.search);
+        var origem = params.get('origem') || params.get('utm_source') ||
+            (/Instagram/i.test(navigator.userAgent) ? 'instagram' : 'site');
+        var MENSAGEM = 'Olá, quero entender como destravar o lucro da minha empresa';
+
+        document.querySelectorAll('.cta-whatsapp').forEach(function (botao) {
+            botao.href = 'https://wa.me/5512988652198?text=' +
+                encodeURIComponent(MENSAGEM + ' [' + origem + ']');
+            botao.addEventListener('click', function () {
+                // Dispara na hora do clique: com atraso, o evento se perde quando o WhatsApp abre
+                if (typeof fbq === 'function') {
+                    fbq('track', 'Lead', { content_name: botao.dataset.cta, lead_source: origem });
                 }
+                (window.dataLayer = window.dataLayer || []).push({
+                    event: 'whatsapp_click', cta_position: botao.dataset.cta, lead_source: origem
+                });
             });
         });
 
-        // WhatsApp CTA buttons handler
-        document.querySelectorAll('.cta-whatsapp').forEach(button => {
-            button.addEventListener('click', function(e) {
-                e.preventDefault();
-                const numero = "5512988652198";
-                const mensagem = encodeURIComponent(
-`Quero entender onde minha empresa está travando.`
-                );
-                window.open(`https://wa.me/${numero}?text=${mensagem}`, '_blank');
-            });
-        });
+        // A barra fixa só aparece depois que o botão do topo sai da tela
+        var barra = document.querySelector('.sticky-cta');
+        var botaoTopo = document.querySelector('[data-cta="topo"]');
+        if (barra && botaoTopo && 'IntersectionObserver' in window) {
+            new IntersectionObserver(function (entradas) {
+                barra.classList.toggle('is-visible', !entradas[0].isIntersecting);
+            }).observe(botaoTopo);
+        }
     </script>
 </body>
 </html>
