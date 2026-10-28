@@ -1,664 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MR8QXW5D');</script>
-<!-- End Google Tag Manager -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VAP EMPRESA 360º - Transforme Seu Negócio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        dark: '#0d0d0d',
-                        gold: '#D9B250',
-                        white: '#ffffff',
-                        gray: '#CFCFCF',
-                        accent: '#E53F3F'
-                    },
-                    fontFamily: {
-                        sans: ['Poppins', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        .gradient-text {
-            background: linear-gradient(90deg, #D9B250 0%, #E53F3F 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .check-item {
-            position: relative;
-            padding-left: 30px;
-        }
-        .check-item::before {
-            content: '\f00c';
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
-            position: absolute;
-            left: 0;
-            color: #D9B250;
-        }
-        .pulse {
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(229, 63, 63, 0.7);
-            }
-            70% {
-                transform: scale(1.02);
-                box-shadow: 0 0 0 10px rgba(229, 63, 63, 0);
-            }
-            100% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(229, 63, 63, 0);
-            }
-        }
-        .border-gold {
-            border-color: #D9B250;
-        }
-        .border-accent {
-            border-color: #E53F3F;
-        }
-        .bg-gold-gradient {
-            background: linear-gradient(135deg, #D9B250 0%, #b8963f 100%);
-        }
-    </style>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="Trabalha demais e sua loja depende de você para tudo? Conheça o VAP Empresa 360º: gestão aplicada e acompanhamento individual para donos de lojas.">
+  <title>VAP Empresa 360º — Gestão aplicada à sua loja</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Poppins:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
-<body class="bg-dark text-white font-sans">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MR8QXW5D"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- Hero Section -->
-    <section class="hero-vap">
-      <div class="hero-container">
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-8 8c-1.2 0-2.4-.3-3.5-.8L4 20l1.3-4.5A8 8 0 1 1 20 11.5Z"/><path d="M8 11h8m-8 4h5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-direction" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m16 8-2 6-6 2 2-6 6-2Z"/></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><circle cx="10" cy="8" r="3"/><path d="M4 20v-2a6 6 0 0 1 12 0v2m1-15a3 3 0 0 1 0 6m2 9v-2a6 6 0 0 0-2-4"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v16h16M8 15l4-5 4 2 4-7"/></symbol>
+    <symbol id="i-finance" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 2v6m8-6v6M4 10h16m-12 4h2m4 0h2m-8 3h2m4 0h2"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="m12 3 8 4v5c0 5-8 9-8 9s-8-4-8-9V7l8-4Z"/><path d="m8 12 3 3 5-6"/></symbol>
+  </defs></svg>
+
+  <header class="site-header" id="inicio">
+    <div class="shell header-inner">
+      <a class="brand-link" href="#inicio" aria-label="VAP Empresa 360º — início"><svg class="brand-logo brand-logo-header" viewBox="48 136 425 232" role="img" aria-label="VAP — Varejo de Alta Performance 4.0"><image href="assets/logo-vap.png" width="525" height="520"/></svg></a>
+      <nav aria-label="Navegação principal"><a href="#metodo">O método</a><a href="#perfil">Para quem é</a><a class="header-action" href="#diagnostico">Solicitar diagnóstico <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
         <div class="hero-copy">
-          <div class="hero-eyebrow">
-Para donos de negócios locais que trabalham 12h por dia, mas não sobra dinheiro no caixa no fim do mês.
-          </div>
-        <h1 class="hero-title">
-  Se a sua empresa depende<br>
-  de você pra funcionar,<br>
-  isso não é um negócio.
-</h1>
-          <div class="hero-impact">
-            É um EMPREGO com CNPJ.
-          </div>
-          <p class="hero-text">
-            Em mais de 30 anos no varejo, o padrão é sempre o mesmo:
-
-Empresas não travam por falta de vendas.
-Travam por falta de gestão.
-
-Sem sistema, não existe lucro previsível.
-E sem lucro previsível, não existe crescimento.
-          </p>
-
-          <div class="hero-box">
-            <div class="hero-box-label"></div>
-            <p>
-              O problema não é vender mais.
-
-É não ter um sistema que organize a empresa
-e transforme esforço em lucro real no caixa.
-            </p>
-          </div>
-          <div class="hero-cta-wrap">
- <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-   onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
-   target="_blank"
-   class="hero-button">
-  <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
-</a>
-            <div class="hero-microcopy">
-              Diagnóstico estratégico via WhatsApp · 45–60 min
-            </div>
-          </div>
+          <p class="hero-eyebrow">Exclusivo para donos de lojas que trabalham 12 horas por dia, mas não veem dinheiro sobrar no caixa.</p>
+          <h1 id="hero-title">Se a sua loja depende de você pra funcionar, isso não é um negócio.</h1>
+          <p class="hero-impact">É um EMPREGO com CNPJ.</p>
+          <p class="hero-subcopy">Em mais de 30 anos no varejo, vi o mesmo padrão: lojas não travam apenas por falta de vendas. Travam por falta de gestão.</p>
+          <p class="hero-subcopy hero-argument"><strong>O problema não é só vender mais. É ter um sistema que organize sua loja e transforme esforço em lucro real no caixa.</strong></p>
+          <a id="hero-cta" class="button button-primary" data-track="whatsapp" data-position="hero" href="https://wa.me/5512988652198?text=Ol%C3%A1%2C%20quero%20solicitar%20o%20Diagn%C3%B3stico%20Estrat%C3%A9gico%20da%20Loja." target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Quero diagnosticar minha loja<svg class="icon button-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <p class="cta-note">Primeiro contato pelo WhatsApp.</p>
         </div>
-        <div class="hero-media">
-          <img src="https://i.postimg.cc/sg29C5jh/marco-png.png" alt="Especialista em gestão para varejo físico" />
+        <figure class="hero-photo"><img src="assets/marco-hero.png" alt="Marco Antônio, mentor de donos de lojas" width="640" height="640" fetchpriority="high"><figcaption><span class="photo-mark"></span><span><strong>Marco Antônio</strong><span>Mais de 30 anos no varejo</span></span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="protocolo" aria-labelledby="vap-method-title">
+      <div class="shell protocol-grid">
+        <div>
+          <p class="eyebrow">Gestão dentro da operação</p>
+          <h2 class="protocol-title" id="vap-method-title">VAP EMPRESA 360°</h2>
+          <p class="protocol-name">Protocolo VAP 90D™</p>
+          <p class="section-intro">Um ciclo de 90 dias para organizar a operação, aplicar ferramentas de gestão e acompanhar a execução na sua loja.</p>
+          <ul class="format-facts" aria-label="Formato da mentoria"><li><strong>90 dias</strong><span>de implantação assistida</span></li><li><strong>6 encontros</strong><span>individuais de até 60 min</span></li><li><strong>Rotina semanal</strong><span>com scorecard e devolutiva</span></li></ul>
+        </div>
+        <div class="protocol-panel">
+          <h3>O que entra em prática</h3>
+          <ul class="check-list"><li>Processos definidos para reduzir a centralização no dono.</li><li>Equipe com responsabilidades e rotinas claras.</li><li>Vendas e finanças acompanhadas com indicadores.</li></ul>
+          <p class="panel-note">As prioridades vêm do diagnóstico. O trabalho começa pelo que mais exige atenção na sua loja.</p>
+          <div class="protocol-signature"><svg class="brand-logo brand-logo-protocol" viewBox="48 136 425 232" role="img" aria-label="VAP — Varejo de Alta Performance 4.0"><image href="assets/logo-vap.png" width="525" height="520"/></svg><a class="text-link" href="#metodo">Entenda como funciona <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
         </div>
       </div>
     </section>
 
-    <!-- DOBRA 2 — IDENTIFICAÇÃO -->
-<section class="py-10 bg-dark/90"><div class="container mx-auto px-4">
-        <div class="max-w-3xl mx-auto">
-            <div class="max-w-xl mx-auto bg-dark/60 border border-accent/30 p-4 rounded-xl text-center">
-                <p class="text-white text-xs font-medium mb-2 tracking-wide">
-                    🔍 Em poucos minutos você vai descobrir:
-                </p>
-                <p class="text-accent/90 font-medium text-sm leading-tight mb-1">
-                    O que está travando o crescimento da sua empresa
-                </p>
-                <p class="text-accent/90 font-medium text-sm leading-tight mb-2">
-                    E por que você continua preso na operação
-                </p>
-                <p class="text-white font-bold text-lg mt-1">
-                    E isso trava sua empresa.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="pt-4 pb-16 bg-gradient-to-b from-dark to-dark/95">
-    <div class="container mx-auto px-4">
-        <div class="max-w-3xl mx-auto text-center">
-            
-            <p class="text-gray text-sm mb-4">
-Se você se identificou com isso, presta atenção:
-</p>
-            
-            <div class="mb-8">
-                <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-none">
-                    VAP EMPRESA 360°
-                </h2>
-                <h3 class="text-base md:text-lg text-accent font-medium mt-2">Protocolo VAP 90D™</h3>
-            </div>
-            
-            <p class="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto leading-relaxed">
-                Um sistema implementado na prática para transformar uma operação desorganizada em lucro previsível — em até 90 dias.
-            </p>
-            
-            <div class="bg-white/5 border border-white/10 p-6 rounded-xl mt-2 mb-8 max-w-xl mx-auto text-left">
-                <h4 class="text-white font-bold text-base mb-4 text-center">
-                    O que começa a mudar na sua empresa:
-                </h4>
-                <ul class="space-y-3">
-                    <li class="flex items-start text-gray-300">
-                        <span class="text-gold mr-2 text-sm">✔</span>
-                        <span class="text-sm font-normal">Processos organizados e rodando sem depender de você</span>
-                    </li>
-                    <li class="flex items-start text-gray-300">
-                        <span class="text-gold mr-2 text-sm">✔</span>
-                        <span class="text-sm font-normal">Equipe operando com padrão e responsabilidade</span>
-                    </li>
-                    <li class="flex items-start text-gray-300">
-                        <span class="text-gold mr-2 text-sm">✔</span>
-                        <span class="text-sm font-normal">Vendas com lucro e previsibilidade</span>
-                    </li>
-                </ul>
-            </div>
-
-            <p class="text-gray text-sm mb-10 leading-relaxed">
-                💡 Aplicado em empresas reais com aumento de lucro em até 90 dias.
-            </p>
-
-            <div class="flex justify-center">
-  <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-     onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
-     target="_blank"
-     class="hero-button">
-    <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
-  </a>
-</div>
-        </div>
-    </div>
-</section>    <!-- DOBRA 4 — MECÂNICA (PROCESSO) -->
-    <section class="py-16 bg-dark/90">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-2 text-gold">Do Caos à Lucratividade</h2>
-                    <p class="text-xl text-gray">Tire sua empresa do improviso e instale uma estrutura eficiente com o VAP 90D™.</p>
-                </div>
-
-                <p class="text-center text-white text-lg mb-12 max-w-2xl mx-auto">
-                    Você não recebe teoria. Você recebe uma <span class="text-gold font-bold">empresa estruturada.</span>
-                </p>
-
-                <div class="grid md:grid-cols-2 gap-6 mb-12">
-                    <div class="bg-dark/80 border border-gold/30 p-6 rounded-xl relative overflow-hidden">
-                        <div class="absolute top-0 right-0 bg-gold text-dark font-bold px-4 py-2 rounded-bl-xl">01</div>
-                        <h3 class="text-xl font-bold text-gold mb-3 mt-4">Diagnóstico Estratégico</h3>
-                        <p class="text-gray">Mapeamos onde sua empresa perde dinheiro, controle e eficiência</p>
-                    </div>
-                    
-                    <div class="bg-dark/80 border border-gold/30 p-6 rounded-xl relative overflow-hidden">
-                        <div class="absolute top-0 right-0 bg-gold text-dark font-bold px-4 py-2 rounded-bl-xl">02</div>
-                        <h3 class="text-xl font-bold text-gold mb-3 mt-4">Organização Estrutural</h3>
-                        <p class="text-gray">Definimos processo, rotina e prioridades</p>
-                    </div>
-                    
-                    <div class="bg-dark/80 border border-gold/30 p-6 rounded-xl relative overflow-hidden">
-                        <div class="absolute top-0 right-0 bg-gold text-dark font-bold px-4 py-2 rounded-bl-xl">03</div>
-                        <h3 class="text-xl font-bold text-gold mb-3 mt-4">Instalação do Sistema</h3>
-                        <p class="text-gray">Aplicamos os pilares dentro da operação</p>
-                    </div>
-                    
-                    <div class="bg-dark/80 border border-gold/30 p-6 rounded-xl relative overflow-hidden">
-                        <div class="absolute top-0 right-0 bg-gold text-dark font-bold px-4 py-2 rounded-bl-xl">04</div>
-                        <h3 class="text-xl font-bold text-gold mb-3 mt-4">Execução Assistida</h3>
-                        <p class="text-gray">Acompanhamos para garantir que funcione na prática</p>
-                    </div>
-                </div>
-
-                <div class="text-center">
-                    <p class="text-xl text-white font-semibold">O objetivo não é te dar ideia. É tirar sua empresa do improviso.</p>
-                </div>
-            </div>
-        </div>
+    <section class="section" id="metodo" aria-labelledby="metodo-title">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">Um caminho claro, do diagnóstico à aplicação</p><h2 id="metodo-title">Do Caos à Lucratividade</h2><p>O objetivo é tirar a gestão do improviso e transformar prioridades em trabalho acompanhado.</p></div>
+        <ol class="steps">
+          <li><span class="step-number">01</span><h3>Diagnóstico estratégico</h3><p>Reunimos os dados e identificamos os gargalos da operação.</p></li>
+          <li><span class="step-number">02</span><h3>Organização estrutural</h3><p>Definimos processos, responsáveis e prioridades do ciclo.</p></li>
+          <li><span class="step-number">03</span><h3>Aplicação das ferramentas</h3><p>Adaptamos os materiais do método ao contexto da loja.</p></li>
+          <li><span class="step-number">04</span><h3>Execução assistida</h3><p>Revisamos a aplicação, os indicadores e os próximos ajustes.</p></li>
+        </ol>
+        <p class="section-close">Você não precisa de mais uma lista de ideias. <strong>Precisa de uma direção para aplicar.</strong></p>
+      </div>
     </section>
 
-    <!-- DOBRA 5 — COMO FUNCIONA -->
-    <section class="py-16 bg-gradient-to-b from-dark/95 to-dark">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center">
-                <span class="text-gold text-sm font-bold tracking-widest uppercase">Método comprovado</span>
-                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-8">Como o VAP 90D™ funciona na prática</h2>
-                
-                <p class="text-lg text-gray mb-8 max-w-3xl mx-auto">
-                    Não é teoria. Não é consultoria. É a <span class="text-white font-semibold">instalação prática</span> de um sistema completo de gestão lucrativa.
-                </p>
-
-                <p class="text-gold font-semibold mb-6">Estrutura real do método:</p>
-
-                <div class="grid md:grid-cols-5 gap-4 mb-8">
-                    <div class="bg-dark/80 border border-gold/30 p-4 rounded-lg">
-                        <i class="fas fa-compass text-gold text-2xl mb-2"></i>
-                        <p class="text-sm font-semibold">Direção Estratégica do Negócio</p>
-                    </div>
-                    <div class="bg-dark/80 border border-gold/30 p-4 rounded-lg">
-                        <i class="fas fa-cogs text-gold text-2xl mb-2"></i>
-                        <p class="text-sm font-semibold">Estrutura Operacional
-                            Definida</p>
-                    </div>
-                    <div class="bg-dark/80 border border-gold/30 p-4 rounded-lg">
-                        <i class="fas fa-chart-line text-gold text-2xl mb-2"></i>
-                        <p class="text-sm font-semibold">Marketing & Vendas Previsíveis</p>
-                    </div>
-                    <div class="bg-dark/80 border border-gold/30 p-4 rounded-lg">
-                        <i class="fas fa-dollar-sign text-gold text-2xl mb-2"></i>
-                        <p class="text-sm font-semibold">Controle Financeiro & Lucro Real</p>
-                    </div>
-                    <div class="bg-dark/80 border border-gold/30 p-4 rounded-lg">
-                        <i class="fas fa-rocket text-gold text-2xl mb-2"></i>
-                       <p class="text-sm font-semibold leading-tight">
-  Gestão &<br>
-  Escala<br>
-  Previsível
-</p>
-                    </div>
-                </div>
-
-                <div class="bg-accent/10 border border-accent/30 p-6 rounded-xl mb-8">
-                    <p class="text-white mb-2">Esses 5 pilares não são ensinados. Eles são <span class="text-accent font-bold">instalados na prática</span>, em até 90 dias.</p>
-                    <p class="text-gray">É isso que transforma uma empresa dependente do dono em uma empresa que funciona com sistema.</p>
-                </div>
-
-                <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-   onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
-   target="_blank"
-   class="inline-block bg-accent hover:bg-red-700 hover:scale-[1.02] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300">
-    <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
-</a>
-            </div>
+    <section class="section section-surface" id="pilares" aria-labelledby="pilares-title">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">A estrutura do método</p><h2 id="pilares-title">Cinco pilares. Uma operação conectada.</h2><p>O diagnóstico define a sequência. Abra cada pilar para ver exemplos de ferramentas e entregas.</p></div>
+        <div class="pillars">
+          <details class="pillar"><summary><svg class="icon" aria-hidden="true"><use href="#i-direction"/></svg><span>Negócio e estratégia</span><span class="pillar-hint">Ver aplicação <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></span></summary><p>Direção do negócio, prioridades e plano de ação com responsáveis e prazos.</p></details>
+          <details class="pillar"><summary><svg class="icon" aria-hidden="true"><use href="#i-team"/></svg><span>Estrutura operacional</span><span class="pillar-hint">Ver aplicação <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></span></summary><p>Funções, responsabilidades, processos e checklists para orientar a equipe.</p></details>
+          <details class="pillar"><summary><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>Marketing e vendas</span><span class="pillar-hint">Ver aplicação <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></span></summary><p>Roteiro de atendimento, funil, acompanhamento das oportunidades e rotina comercial.</p></details>
+          <details class="pillar"><summary><svg class="icon" aria-hidden="true"><use href="#i-finance"/></svg><span>Financeiro</span><span class="pillar-hint">Ver aplicação <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></span></summary><p>DRE gerencial, revisão de custos, margem, precificação e leitura de caixa.</p></details>
+          <details class="pillar"><summary><svg class="icon" aria-hidden="true"><use href="#i-scale"/></svg><span>Governança e escala</span><span class="pillar-hint">Ver aplicação <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></span></summary><p>Rotinas de gestão, scorecard, checkpoints e planejamento do próximo ciclo.</p></details>
         </div>
+        <div class="section-action"><a class="button button-primary" data-track="whatsapp" data-position="pilares" href="https://wa.me/5512988652198?text=Ol%C3%A1%2C%20quero%20solicitar%20o%20Diagn%C3%B3stico%20Estrat%C3%A9gico%20da%20Loja." target="_blank" rel="noopener noreferrer">Quero diagnosticar minha loja <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><p class="cta-note">Vamos começar entendendo a sua operação.</p></div>
+      </div>
     </section>
 
-
-    <!-- DOBRA 7 — DESEJO (ANTES vs DEPOIS) -->
-    <section class="py-16 bg-gradient-to-b from-dark to-dark/95">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gold">O que muda quando a empresa deixa de depender de você</h2>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- Antes -->
-                    <div class="bg-dark/80 border border-accent/50 p-8 rounded-xl">
-                        <h3 class="text-2xl font-bold text-accent mb-6 flex items-center">
-                            <i class="fas fa-times-circle mr-3"></i>
-                            ANTES DO VAP 360º
-                        </h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-minus text-accent mt-1 mr-3"></i>
-                                <span>Dono preso na operação</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-minus text-accent mt-1 mr-3"></i>
-                                <span>Equipe sem padrão</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-minus text-accent mt-1 mr-3"></i>
-                                <span>Vendas inconsistentes</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-minus text-accent mt-1 mr-3"></i>
-                                <span>Dinheiro entra, mas não sobra</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-minus text-accent mt-1 mr-3"></i>
-                                <span>Decisões no improviso</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-minus text-accent mt-1 mr-3"></i>
-                                <span>Crescimento desorganizado</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Depois -->
-                    <div class="bg-dark/80 border border-gold/50 p-8 rounded-xl">
-                        <h3 class="text-2xl font-bold text-gold mb-6 flex items-center">
-                            <i class="fas fa-check-circle mr-3"></i>
-                            DEPOIS DO VAP 360º
-                        </h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-plus text-gold mt-1 mr-3"></i>
-                                <span>Empresa funcionando com processo</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-plus text-gold mt-1 mr-3"></i>
-                                <span>Equipe com rotina e direção</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-plus text-gold mt-1 mr-3"></i>
-                                <span>Vendas com padrão e previsibilidade</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-plus text-gold mt-1 mr-3"></i>
-                                <span>Controle financeiro claro</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-plus text-gold mt-1 mr-3"></i>
-                                <span>Decisões baseadas em números</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-plus text-gold mt-1 mr-3"></i>
-                                <span>Crescimento com estrutura</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="text-center mt-12">
-                    <p class="text-2xl font-bold text-white">Você não precisa trabalhar mais.<br><span class="text-gold">Você precisa de estrutura.</span></p>
-                </div>
-            </div>
+    <section class="section" id="direcao" aria-labelledby="direcao-title">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">Da sobrecarga à organização</p><h2 id="direcao-title">A loja precisa de estrutura.<br>Você precisa de espaço para gerir.</h2></div>
+        <div class="comparison">
+          <div class="comparison-column"><p class="comparison-label">O cenário que pesa hoje</p><ul><li>Dono preso na operação</li><li>Equipe sem padrão</li><li>Dinheiro entra, mas não sobra</li><li>Decisões no improviso</li></ul></div>
+          <div class="comparison-column comparison-target"><p class="comparison-label">A direção do trabalho</p><ul><li>Processos e responsabilidades definidos</li><li>Equipe com rotina e direção</li><li>Vendas, custos e caixa acompanhados</li><li>Decisões apoiadas em indicadores</li></ul></div>
         </div>
+      </div>
     </section>
 
-    <!-- DOBRA 8 — PROVA -->
-    <section class="py-16 bg-dark/90">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gold">Resultados reais de empresas reais</h2>
-                <p class="text-gray mb-12">Empresas que aplicaram o VAP 360º saíram do improviso e passaram a operar com controle.</p>
-
-                <div class="grid md:grid-cols-2 gap-8 mb-12">
-                    <div class="bg-gradient-to-br from-gold/20 to-dark border border-gold/30 p-8 rounded-xl">
-                        <div class="text-5xl font-bold text-gold mb-2">+32%</div>
-                        <p class="text-white font-semibold">de aumento de faturamento</p>
-                        <p class="text-gray text-sm mt-2">→ em até 90 dias após organização operacional</p>
-                    </div>
-                    <div class="bg-gradient-to-br from-gold/20 to-dark border border-gold/30 p-8 rounded-xl">
-                        <div class="text-5xl font-bold text-gold mb-2">+45%</div>
-                        <p class="text-white font-semibold">de melhoria de margem</p>
-                        <p class="text-gray text-sm mt-2">→ após ajuste de precificação e controle financeiro</p>
-                    </div>
-                </div>
-
-                <div class="space-y-4 mb-8 text-left max-w-2xl mx-auto">
-                    <div class="flex items-center bg-dark/60 p-4 rounded-lg border border-gray-800">
-                        <i class="fas fa-check text-gold mr-4"></i>
-                        <span>Empresas que saíram do prejuízo em até 90 dias após aplicar o método</span>
-                    </div>
-                    <div class="flex items-center bg-dark/60 p-4 rounded-lg border border-gray-800">
-                        <i class="fas fa-check text-gold mr-4"></i>
-                        <span>Recordes de vendas com processo estruturado, não esforço pontual</span>
-                    </div>
-                    <div class="flex items-center bg-dark/60 p-4 rounded-lg border border-gray-800">
-                        <i class="fas fa-check text-gold mr-4"></i>
-                        <span>Operações que deixaram de depender do dono no dia a dia</span>
-                    </div>
-                </div>
-
-                <div class="bg-accent/10 border-l-4 border-accent p-6 rounded-r-xl inline-block">
-                    <p class="text-white font-semibold">Isso não vem de teoria.<br>Vem de <span class="text-accent">estrutura implementada na prática, dentro da operação.</span></p>
-                </div>
-            </div>
+    <section class="section section-surface" id="gestao-na-pratica" aria-labelledby="gestao-title">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">Entregas que entram na rotina</p><h2 id="gestao-title">Menos improviso. Mais direção para sua loja.</h2><p>Processos, rotinas e indicadores para organizar a operação e acompanhar a evolução da sua loja.</p></div>
+        <div class="delivery-grid">
+          <article class="delivery-card"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><h3>Rotina comercial</h3><p class="delivery-lead">Atendimento e vendas com processo</p><p>Roteiro de atendimento, acompanhamento das oportunidades e rotina de follow-up.</p></article>
+          <article class="delivery-card"><svg class="icon" aria-hidden="true"><use href="#i-finance"/></svg><h3>Controle de margem</h3><p class="delivery-lead">Custos, preços e descontos em análise</p><p>Ferramentas para revisar as condições de venda e acompanhar a margem por produto.</p></article>
         </div>
+        <ul class="delivery-checks"><li>Plano de ação com prioridades, responsáveis e prazos definidos.</li><li>Indicadores para acompanhar a aplicação e revisar as decisões.</li><li>Processos e responsabilidades para reduzir a centralização no dono.</li></ul>
+        <p class="evidence-note"><strong>Aplicar, acompanhar e ajustar.</strong> Metas definidas após o diagnóstico, conforme a realidade da sua loja.</p>
+      </div>
     </section>
 
-    <!-- DOBRA 9 — AUTORIDADE -->
-    <section class="py-16 bg-gradient-to-b from-dark/95 to-dark">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <div class="flex flex-col md:flex-row items-center gap-8">
-                    <div class="md:w-1/3">
-                        <div class="bg-gradient-to-br from-gold to-accent p-1 rounded-full">
-                            <img src="https://i.postimg.cc/zfZQzdV4/Quem-eu-sou.png" alt="Marco Antônio" class="rounded-full w-full aspect-square object-cover">
-                        </div>
-                    </div>
-                    <div class="md:w-2/3 text-center md:text-left">
-                        <span class="text-gold text-sm font-bold tracking-widest uppercase">O especialista por trás do VAP 90D</span>
-                        <h2 class="text-4xl font-bold mt-2 mb-4">Marco Antônio</h2>
-                        
-                        <div class="space-y-3 text-gray mb-6">
-                            <p>Mais de 30 anos dentro do varejo mostram o mesmo padrão:
-empresas que vendem, mas operam sem controle — e por isso nunca conseguem escalar.</p>
-                            <p class="text-white font-medium">Não é teoria. É padrão de mercado.</p>
-                        </div>
-
-                        <div class="mb-4">
-                            <p class="text-white font-semibold mb-2">Experiência prática em:</p>
-                            <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                                <span class="bg-gold/10 text-gold px-3 py-1 rounded-full text-sm border border-gold/30">Negócio</span>
-                                <span class="bg-gold/10 text-gold px-3 py-1 rounded-full text-sm border border-gold/30">Estrutura</span>
-                                <span class="bg-gold/10 text-gold px-3 py-1 rounded-full text-sm border border-gold/30">Vendas</span>
-                                <span class="bg-gold/10 text-gold px-3 py-1 rounded-full text-sm border border-gold/30">Finanças</span>
-                                <span class="bg-gold/10 text-gold px-3 py-1 rounded-full text-sm border border-gold/30">Escala</span>
-                            </div>
-                        </div>
-
-                        <div class="bg-dark/80 border-l-4 border-gold p-4 rounded-r-xl">
-                            <p class="text-white font-semibold">Se a sua empresa depende de você para funcionar, ela não é um negócio. É um EMPREGO com CNPJ.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="section" id="mentor" aria-labelledby="mentor-title">
+      <div class="shell mentor-grid">
+        <figure class="mentor-photo"><img src="assets/marco-mentor.png" alt="Marco Antônio" width="480" height="480" loading="lazy" decoding="async"></figure>
+        <div><p class="eyebrow">Quem acompanha você</p><h2 id="mentor-title">Marco Antônio</h2><p class="mentor-lead">Mais de 30 anos dentro do varejo.</p><p>Experiência na operação, na gestão de equipes e nas decisões que fazem parte do dia a dia de uma loja.</p><p>No VAP, essa experiência orienta o diagnóstico, a escolha das ferramentas e a revisão da aplicação com você.</p><div class="expertise" aria-label="Áreas de atuação"><span>Negócio</span><span>Estrutura</span><span>Vendas</span><span>Finanças</span><span>Governança</span></div><p class="mentor-quote">“Se a sua loja depende de você pra funcionar, isso não é um negócio. É um EMPREGO com CNPJ.”</p></div>
+      </div>
     </section>
 
-    <!-- DOBRA 10 — FILTRO -->
-    <section class="py-16 bg-dark/90">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gold">Isso é para você?</h2>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-8 mb-8">
-                    <!-- Para quem é -->
-                    <div class="bg-dark/80 border border-gold/30 p-8 rounded-xl">
-                        <h3 class="text-xl font-bold text-gold mb-6 flex items-center">
-                            <i class="fas fa-check-circle mr-3"></i>
-                            Para quem é:
-                        </h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-check text-gold mt-1 mr-3 text-sm"></i>
-                                <span>Donos de negócios locais</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-check text-gold mt-1 mr-3 text-sm"></i>
-                                <span>Empresas que faturam, mas não têm controle</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-check text-gold mt-1 mr-3 text-sm"></i>
-                                <span>Quem quer sair da operação</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-check text-gold mt-1 mr-3 text-sm"></i>
-                                <span>Quem quer estrutura de verdade</span>
-                            </li>
-                            <li class="flex items-start text-white">
-                                <i class="fas fa-check text-gold mt-1 mr-3 text-sm"></i>
-                                <span>Quem está cansado de depender do próprio esforço</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Para quem NÃO é -->
-                    <div class="bg-dark/80 border border-accent/30 p-8 rounded-xl">
-                        <h3 class="text-xl font-bold text-accent mb-6 flex items-center">
-                            <i class="fas fa-times-circle mr-3"></i>
-                            Para quem não é:
-                        </h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-times text-accent mt-1 mr-3 text-sm"></i>
-                                <span>Quem busca fórmula mágica</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-times text-accent mt-1 mr-3 text-sm"></i>
-                                <span>Quem quer só motivação</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-times text-accent mt-1 mr-3 text-sm"></i>
-                                <span>Quem não quer rever processo</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-times text-accent mt-1 mr-3 text-sm"></i>
-                                <span>Quem não executa</span>
-                            </li>
-                            <li class="flex items-start text-gray">
-                                <i class="fas fa-times text-accent mt-1 mr-3 text-sm"></i>
-                                <span>Quem procura "dicas" rápidas</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="text-center">
-                    <p class="text-xl text-white font-bold">Aqui não tem atalhos.<br><span class="text-gold text-2xl">Tem estrutura.</span></p>
-                </div>
-            </div>
-        </div>
+    <section class="section section-surface" id="perfil" aria-labelledby="perfil-title">
+      <div class="shell"><div class="section-heading"><p class="eyebrow">A decisão começa pelo seu momento</p><h2 id="perfil-title">Isso é para você?</h2></div><div class="fit-grid">
+        <div class="fit-column"><h3>Faz sentido quando você…</h3><ul class="check-list"><li>É dono ou dona de uma loja física.</li><li>Tem uma equipe que precisa de rotina e direção.</li><li>Trabalha demais e sente a operação depender de você.</li><li>Quer organizar a gestão e está disposto a aplicar mudanças.</li></ul></div>
+        <div class="fit-column fit-muted"><h3>O que o trabalho exige</h3><ul><li>Disponibilizar os dados da loja.</li><li>Participar das decisões e dos encontros.</li><li>Envolver o responsável pela execução.</li><li>Testar os processos e acompanhar os indicadores.</li></ul></div>
+      </div><p class="responsibility-note">O mentor orienta e revisa. Você e sua equipe aplicam no dia a dia.</p></div>
     </section>
 
-    <!-- DOBRA 11 — OFERTA -->
-    <section id="diagnostico" class="py-16 bg-gradient-to-b from-dark to-dark/95">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gold">Diagnóstico Estratégico: onde sua empresa perde lucro hoje</h2>
-                    <p class="text-xl text-gray">Antes de estruturar sua empresa, você precisa enxergar com clareza o que está travando lucro, operação e crescimento.</p>
-                </div>
-
-                <div class="bg-dark/80 border border-gold/30 p-8 rounded-xl mb-8">
-                    <div class="grid md:grid-cols-2 gap-4">
-                        <div class="flex items-start bg-dark/60 p-4 rounded-lg">
-                            <i class="fas fa-check text-gold mt-1 mr-3"></i>
-                            <span>Onde sua empresa perde dinheiro hoje</span>
-                        </div>
-                        <div class="flex items-start bg-dark/60 p-4 rounded-lg">
-                            <i class="fas fa-check text-gold mt-1 mr-3"></i>
-                            <span>O que mantém sua dependência na operação</span>
-                        </div>
-                        <div class="flex items-start bg-dark/60 p-4 rounded-lg">
-                            <i class="fas fa-check text-gold mt-1 mr-3"></i>
-                            <span>Quais gargalos travam lucro e crescimento</span>
-                        </div>
-                        <div class="flex items-start bg-dark/60 p-4 rounded-lg">
-                            <i class="fas fa-check text-gold mt-1 mr-3"></i>
-                            <span>O que precisa ser estruturado primeiro</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-accent/10 border border-accent/30 p-3 rounded-lg mb-6">
-                    <div class="flex flex-col md:flex-row justify-center gap-3 text-center">
-                        <div class="flex items-center justify-center text-white text-xs">
-                            <i class="fas fa-video text-gold mr-2 text-xs"></i>
-                            <span>Sessão online</span>
-                        </div>
-                        <div class="flex items-center justify-center text-white text-xs">
-                            <i class="fas fa-clock text-gold mr-2 text-xs"></i>
-                            <span>45 a 60 minutos</span>
-                        </div>
-                        <div class="flex items-center justify-center text-white text-xs">
-                            <i class="fas fa-gift text-gold mr-2 text-xs"></i>
-                            <span>Gratuito mediante qualificação</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center space-y-6">
-                    <p class="text-white text-lg">Não é aula. Não é consultoria gratuita.<br>É uma análise estratégica para identificar o que impede sua empresa de funcionar com estrutura, controle e lucro.</p>
-                    <a href="https://wa.me/5512988652198?text=Olá,%20quero%20entender%20como%20destravar%20o%20lucro%20da%20minha%20empresa"
-   onclick="setTimeout(function(){ fbq('track','Lead'); }, 1500);"
-   target="_blank"
-   class="inline-block bg-accent hover:bg-red-700 hover:scale-[1.02] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300">
-    <i class="fab fa-whatsapp mr-2"></i>Quero diagnosticar minha empresa
-</a>
-                </div>
-            </div>
-        </div>
+    <section class="section" id="perguntas" aria-labelledby="faq-title">
+      <div class="shell faq-grid"><div><p class="eyebrow">Antes do primeiro contato</p><h2 id="faq-title">Dúvidas que vale esclarecer.</h2><p class="section-intro">Entenda o diagnóstico e o formato de acompanhamento.</p></div><div class="faq-list">
+        <details><summary>O diagnóstico é gratuito?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>A sessão online de 45 a 60 minutos é gratuita mediante qualificação. O primeiro contato pelo WhatsApp verifica o contexto da loja e a possibilidade de avançar para o agendamento.</p></details>
+        <details><summary>Como funciona o acompanhamento?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>A mentoria é individual, com seis encontros de até 60 minutos ao longo de 90 dias, scorecard semanal e devolutiva entre os encontros. O escopo é detalhado na proposta.</p></details>
+        <details><summary>O mentor executa tudo pela minha loja?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>O mentor orienta, produz os documentos e revisa a aplicação. Você e sua equipe fornecem os dados, executam as ações e tomam as decisões. Não é terceirização da operação diária.</p></details>
+        <details><summary>Existe garantia de aumento de lucro em 90 dias?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>Não. Os 90 dias são o período do acompanhamento. As metas são definidas após o diagnóstico e os resultados dependem do contexto, dos dados disponíveis e da execução da loja.</p></details>
+        <details><summary>Qual é o investimento na mentoria?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>O investimento é definido por contratação, em uma proposta com escopo, valor e condições antes do início. O diagnóstico e uma eventual contratação da mentoria são etapas distintas.</p></details>
+        <details><summary>Como funciona o suporte entre encontros?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>Pelo WhatsApp, de segunda a sexta, das 9h às 18h, no horário de Brasília, com resposta em até um dia útil. O pacote não inclui plantão ou reuniões extras.</p></details>
+      </div></div>
     </section>
 
-    
+    <section class="section final-section" id="diagnostico" aria-labelledby="diagnostico-title">
+      <div class="shell final-grid">
+        <div><p class="eyebrow">O primeiro passo</p><h2 id="diagnostico-title">Diagnóstico Estratégico da Loja</h2><p class="section-intro">Vamos olhar para o que pesa na sua operação e definir por onde começar.</p><ul class="check-list"><li>Dependência do dono e rotina da equipe.</li><li>Gargalos da operação e da gestão.</li><li>Dados disponíveis e pontos que precisam ser investigados.</li><li>Prioridades para uma possível intervenção.</li></ul></div>
+        <div class="diagnostic-panel"><p class="panel-kicker">Uma conversa sobre a sua realidade</p><ul class="session-facts"><li><span>Formato</span><strong>Sessão online</strong></li><li><span>Duração</span><strong>45 a 60 minutos</strong></li><li><span>Condição</span><strong>Gratuito mediante qualificação</strong></li></ul><a id="diagnostico-cta" class="button button-primary" data-track="whatsapp" data-position="diagnostico" href="https://wa.me/5512988652198?text=Ol%C3%A1%2C%20quero%20solicitar%20o%20Diagn%C3%B3stico%20Estrat%C3%A9gico%20da%20Loja." target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Quero diagnosticar minha loja</a><p class="cta-note">Você será direcionado ao WhatsApp para o primeiro contato.</p></div>
+      </div>
+    </section>
+  </main>
 
-    <!-- Footer -->
-    <footer class="py-8 border-t border-gold/20 bg-dark">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <p class="text-gray text-sm">© 2024 VAP EMPRESA 360º. Todos os direitos reservados.</p>
-                </div>
-                <div class="flex space-x-4">
-                    <a href="#" class="text-gray hover:text-gold transition"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-gray hover:text-gold transition"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="text-gray hover:text-gold transition"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-
-        // WhatsApp CTA buttons handler
-        document.querySelectorAll('.cta-whatsapp').forEach(button => {
-            button.addEventListener('click', function(e) {
-                e.preventDefault();
-                const numero = "5512988652198";
-                const mensagem = encodeURIComponent(
-`Quero entender onde minha empresa está travando.`
-                );
-                window.open(`https://wa.me/${numero}?text=${mensagem}`, '_blank');
-            });
-        });
-    </script>
+  <footer class="site-footer"><div class="shell footer-inner"><div><a class="brand-link" href="#inicio" aria-label="VAP Empresa 360º — início"><svg class="brand-logo brand-logo-footer" viewBox="48 136 425 232" role="img" aria-label="VAP — Varejo de Alta Performance 4.0"><image href="assets/logo-vap.png" width="525" height="520"/></svg></a><p>VAP EMPRESA 360º · Protocolo 90D</p></div><div class="footer-links"><a href="#perguntas">Perguntas frequentes</a><a href="https://wa.me/5512988652198" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="#inicio">Voltar ao início ↑</a></div><p class="copyright">© 2026 VAP EMPRESA 360º.</p></div></footer>
+  <aside class="mobile-action" id="mobile-action" aria-label="Contato rápido" hidden><a class="button button-primary" data-track="whatsapp" data-position="mobile-fixo" href="https://wa.me/5512988652198?text=Ol%C3%A1%2C%20quero%20solicitar%20o%20Diagn%C3%B3stico%20Estrat%C3%A9gico%20da%20Loja." target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Quero diagnosticar minha loja</a></aside>
 </body>
 </html>
